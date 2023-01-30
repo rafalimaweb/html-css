@@ -1,0 +1,55 @@
+@charset "UTF=8";
+
+@font-face {
+    font-family: 'Passion-one' ;
+    src: url(Passion_One/PassionOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Sriracha' ;
+    src: url(Sriracha/Sriracha-Regular.ttf);
+}
+body {
+    background-color: white;
+    
+
+}
+
+header {
+    background-color: black;
+    margin: -15px;
+    
+    
+}
+
+header > h1 {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Passion-one';
+    font-weight: lighter;
+    font-size: 50px;
+}
+nav {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+ section{
+    padding: 20px 0px 20px 0px;
+    font-family: 'Sriracha';
+}
+
+
