@@ -9,91 +9,78 @@
     font-family: 'Sriracha' ;
     src: url(Sriracha/Sriracha-Regular.ttf);
 }
-body {
-    background-color: white;
-    
+ * {
+    margin: 0px;
+    padding: 0px;
+ }
 
-}
+ html, body {
+    min-height: 100vh;
+    background-color: rgb(49, 117, 177);
+ }
 
 header {
     background-color: black;
-    margin: -15px;
-    
-    
+    text-align: center;
+    color: white;   
 }
 
 header > h1 {
-    color: white;
     padding-top: 50px;
-    padding-bottom: 0px;
     text-align: center;
-    margin: auto;
+    font-variant: small-caps;
     font-family: 'Passion-one';
-    font-weight: lighter;
-    font-size: 80px;
+    font-size: 70px;
 }
-nav {
+header > p {
     color: white;
-    padding-top: 5px;
     padding-bottom: 50px;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-nav > a {
-    text-decoration: none;
+header a, footer a {
     color: white;
-    font-weight: bold;
-    
-}
-    .formatação{
-    padding: 20px 0px 20px 0px;
-    font-family: 'Sriracha';
-    font-size: 25px;
+    text-decoration: none
 }
 
-#imagem{
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 25px;
+    font-family: 'Sriracha-Regular';
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(71, 71, 71);
     color: white;
-    padding: 20px 0px 20px 0px;
-    font-family: 'Sriracha';
-    font-size: 25px;
-    background-image: url(imagens/background001.jpg);
-    background-position: center center;
-    
-    
 }
-#parte3{
-    padding: 20px 0px 20px 20px;
-    font-family: 'Sriracha';
-    font-size: 25px;
+
+section.imagem > p {
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.123);
 }
-#parte4{
-    padding: 20px 0px 20px 20px;
-    font-family: 'Sriracha';
-    font-size: 25px;
-}
- #parte5{    
-    padding: 20px 0px 20px 20px;
-    font-family: 'Sriracha';
-    background-image: url(imagens/background002.jpg);
-    background-position: left center;   
-}
-#parte6{
-    padding: 20px 0px 20px 20px;
-    font-family: 'Sriracha';
-    font-size: 25px;
-}
-#parte7{
-    padding: 20px 0px 20px 20px;
-    font-family: 'Sriracha';
-    font-size: 25px;
-}
+
 footer {
+    background-color: black;
     text-align: center;
-    font: bold;
-    border-color: black;
     text-decoration: none;
+    padding: 10px;
+}
+
+footer > p {
+    color: white;
 }
 
 
