@@ -30,14 +30,15 @@ header > h1 {
     text-align: center;
     font-variant: small-caps;
     font-family: 'Passion-one';
-    font-size: 70px;
+    font-size: 6vw;
+
 }
 header > p {
     color: white;
     padding-bottom: 50px;
     text-align: center;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 2vw;
 }
 
 header a, footer a {
@@ -66,14 +67,32 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgb(71, 71, 71);
+    background-color: rgba(0, 0, 0, 0.637);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.74);
+    background-size: cover;
+    background-attachment: fixed;
+
+
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.123);
+    background-color: rgba(0, 0, 0, 0.349);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#foto01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+section#foto02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    
 }
 
 footer {
